@@ -1,0 +1,30 @@
+/* pages/me/me.wxss */
+.main_bg{
+  background: #cecece;
+  height: 100%;
+}
+.contain {
+  width: 90%;
+  padding: 10px 15px;
+  border: solid blue 1px;
+  display: flex;
+  align-self: center;
+  margin-top: 10px;
+  background: white;
+}
+
+.main_bg {
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  float: right;
+}
+.content{
+  margin-left: 10px;
+  width: 90%;
+}

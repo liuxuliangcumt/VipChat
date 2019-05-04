@@ -1,0 +1,12 @@
+<!--pages/main/main.wxml-->
+
+<view class="page__bd">
+  <text>付款二维码</text>
+   <canvas class='canvas' style="width:{{qrcode_w}}px; height:{{qrcode_w}}px;" canvas-id='canvas' bindlongtap='save'></canvas>
+
+   <text class='balance'>余额： {{balance}}</text>
+
+   <button class='refresh' bindtap='changeQrcode'>刷新</button>
+
+  
+</view>

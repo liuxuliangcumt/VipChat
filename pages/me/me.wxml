@@ -1,0 +1,18 @@
+<!--pages/me/me.wxml-->
+<view class='main_bg'>
+  <view class='contain' bindtap='chargeClick'>
+
+    <image style="width: 20px; height: 20px; " mode="{{item.mode}}" src='../../images/charge_record.png'></image>
+    <text class='content'>充值记录</text>
+
+    <image class='right' style="width: 20px; height: 20px;"  src='../../images/arrow_right.png'></image>
+  </view>
+
+  <view class='contain' bindtap='spendClick'>
+
+    <image style="width: 20px; height: 20px; "  src='../../images/spend_record.png'></image>
+    <text class='content'>消费记录</text>
+
+    <image class='right' style="width: 20px; height: 20px;" mode="{{item.mode}}" src='../../images/arrow_right.png'></image>
+  </view>
+</view>

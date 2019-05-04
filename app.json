@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/logs/logs",
+    "pages/recharge/recharge",
+    "pages/index/index",
+    "pages/me/me",
+    "pages/charge/charge",
+    "pages/spend/spend"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#d81e06",
+    "borderStyle": "black",
+    "backgroundColor": "#f7f7fa",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "付款",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/main_red.png"
+      },
+      {
+        "pagePath": "pages/recharge/recharge",
+        "text": "充值",
+        "iconPath": "images/recharge.png",
+        "selectedIconPath": "images/recharge_red.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me_red.png"
+      }
+    ]
+  }
+}
